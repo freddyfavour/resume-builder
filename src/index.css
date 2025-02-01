@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.info-section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  background-color: var(--color-gray-200);
+  margin-bottom: 2rem;
+}
+
+input {
+  background-color: var(--color-gray-300);
+  margin-top: 0.5rem;
+  height: 2.5rem;
+  border-radius: 0.7rem;
+  padding: 0px 5px;
+  font-size: 1rem;
+  outline-color: transparent;
+}
+
+textarea {
+  background-color: var(--color-gray-300);
+  margin-top: 0.5rem;
+  height: 7rem;
+  border-radius: 0.7rem;
+  padding: 2px 5px;
+  font-size: 1rem;
+  outline-color: transparent;
+}
+
+input:active {
+  outline-color: rgb(201, 201, 201);
+}
